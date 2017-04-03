@@ -53,7 +53,17 @@
 
 				<div>
 					<label for="robots">Robots <span>*</span></label>
-					<input placeholder="Ex: http://a2ad.com.br/" type="text" name="robots" id="robots">
+					<select name="robots" id="robots">
+						<option value="index/follow">index/follow</option>
+						<option value="noindex/follow">noindex/follow</option>
+						<option value="index/nofollow">index/nofollow</option>
+						<option value="noarchive">noarchive</option>
+						<option value="nosnippet">nosnippet</option>
+						<option value="noodp">noodp</option>
+						<option value="notranslate">notranslate</option>
+						<option value="noimageindex">noimageindex</option>
+						<option value="none">none</option>
+					</select>
 				</div>
 
 				<div>
@@ -85,7 +95,33 @@
 
 				<div>
 					<label for="fb-type">Tipo <span>*</span></label>
-					<input type="text" name="fb-type" id="fb-type">
+					<select name="fb-type" id="fb-type">
+						<option value="website">website</option>
+						<option value="blog">blog</option>
+						<option value="article">article</option>
+						<option value="activity">activity</option>
+						<option value="sport">sport</option>
+						<option value="company">company</option>
+						<option value="restaurant">restaurant</option>
+						<option value="hotel">hotel</option>
+						<option value="cause">cause</option>
+						<option value="band">band</option>
+						<option value="government">government</option>
+						<option value="non_profit">non_profit</option>
+						<option value="school">school</option>
+						<option value="university">university</option>
+						<option value="actor">actor</option>
+						<option value="athlete">athlete</option>
+						<option value="city">city</option>
+						<option value="country">country</option>
+						<option value="album">album</option>
+						<option value="book">book</option>
+						<option value="drink">drink</option>
+						<option value="game">game</option>
+						<option value="product">product</option>
+						<option value="song">song</option>
+						<option value="movie">movie</option>
+					</select>
 				</div>
 
 				<div>
@@ -112,7 +148,15 @@
 			<div class="wrapper">
 				<div>
 					<label for="tw-card">Twitter Card <span>*</span></label>
-					<input type="text" name="tw-card" id="tw-card">
+					<select name="tw-card" id="tw-card">
+						<option value="Summary">Summary</option>
+						<option value="Product">Product</option>
+						<option value="Photo">Photo</option>
+						<option value="Summary Large Image">Summary Large Image</option>
+						<option value="Player">Player</option>
+						<option value="App">App</option>
+						<option value="Gallery">Gallery</option>
+					</select>
 				</div>
 			</div>
 		</section>
